@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Chart Generator</h1>
+    <div id="chart-container">
+        <div id="chart-input">
+            </span>
+            <form>
+                <label><span>Data 1  </span><input type="text" /></label>
+                <label><span>Data 2  </span><input type="text" /></label>
+                <label><span>Data 3  </span><input type="text" /></label>
+            </form>
+            <!-- <div class="remove-button">
+          <input type="text" id="remove-index"  placeholder="index"/>
+          <button type="button" id="remove-btn">
+            remove
+          </button>
+        </div> -->
+            <div class="static-section">
+                <div class="choose-background">
+                    <label><span>Background Color: </span><input type="color" id="bg-color"
+            /></label>
+                    <label><span>ForeGround Color: </span><input type="color" id="fg-color"
+            /></label>
+
+                    <button type="button" id="color-btn">save color</button>
+                </div>
+                <div class="buttons">
+                    <button type="button" id="add-btn">Add Input</button>
+                    <button type="button" id="submit-btn">Generate Chart</button>
+                </div>
+            </div>
+        </div>
+        <div class="can">
+            <canvas id="canvas"></canvas>
+            <div class="buttons">
+                <button type="button" id="clear-btn">Clear</button>
+                <a href="#" id="download-btn" download="chart.png">Download</a>
+            </div>
+        </div>
+
+    </div>
+    <h3>Made by
+        <a href="https://github.com/YOSEF-CODER" class="credit">Yosef Lakew</a>
+    </h3>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+    font-family: 'Righteous', cursive;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#chart-container {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+#chart-input {
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    gap: 0.5rem;
+    border-radius: 50px;
+    background: #EAEAEA;
+    box-shadow: 8px 8px 16px #dadada, -8px -8px 16px #fafafa;
+    padding: 32px;
+}
+
+button,
+a {
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #EAEAEA;
+    box-shadow: 8px 8px 16px #dadada, -8px -8px 16px #fafafa;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-decoration: none;
+    font: inherit;
+}
+
+#canvas {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-size: cover;
+    padding: 32px;
+    border-radius: 16px;
+    background: #EAEAEA;
+    box-shadow: 8px 8px 16px #dadada, -8px -8px 16px #fafafa;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 50%;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #e0e0e0;
+    box-shadow: inset 6px 6px 16px #bcbcbc, inset -6px -6px 16px #ffffff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.remove-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    width: 15rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.choose-background {
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.can {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px
+}
+
+#color-btn {
+    margin-top: 16px;
+}
+
+.credit {
+    border: none;
+    box-shadow: none;
+}
